@@ -212,11 +212,6 @@ __marimo__/
 *.pyo
 *.pyd
 
-#Pelican
-output/
-cache/
-themes/
-
 # Micromamba
 .micromamba/
 
