@@ -1,0 +1,286 @@
+/* GusmaoLab Design Tokens
+   Scope: global (:root) so Flex + overrides can consume them.
+   Edit only tokens; avoid hardcoding colors elsewhere.
+*/
+
+/* 1) COLOR SYSTEM */
+:root {
+  /* neutrals */
+  --color-bg: #ffffff;
+  --color-surface: #f7f7f9;
+  --color-border: #e3e3ea;
+  --color-text: #14151a;
+  --color-muted: #5b5e6a;
+
+  /* brand */
+  --color-accent: #2463eb;          /* blue-600 vibe */
+  --color-accent-contrast: #ffffff; /* text on accent */
+  --color-link: var(--color-accent);
+
+  /* code & selection */
+  --color-code-bg: #f3f4f6;
+  --color-selection-bg: #cde2ff;
+
+  /* feedback (optional, handy for notices) */
+  --color-success: #16a34a;
+  --color-warning: #d97706;
+  --color-danger:  #dc2626;
+}
+
+/* 2) SPACING SCALE (multiples of 4px) */
+:root {
+  --space-0: 0;
+  --space-1: 0.25rem; /* 4px  */
+  --space-2: 0.5rem;  /* 8px  */
+  --space-3: 0.75rem; /* 12px */
+  --space-4: 1rem;    /* 16px */
+  --space-5: 1.25rem; /* 20px */
+  --space-6: 1.5rem;  /* 24px */
+  --space-8: 2rem;    /* 32px */
+  --space-10: 2.5rem; /* 40px */
+  --space-12: 3rem;   /* 48px */
+}
+
+/* 3) RADII */
+:root {
+  --radius-xs: 4px;
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 14px;
+  --radius-xl: 22px;
+  --radius-pill: 999px;
+}
+
+/* 4) SHADOWS */
+:root {
+  --shadow-1: 0 1px 3px rgba(0,0,0,.08), 0 1px 2px rgba(0,0,0,.06);
+  --shadow-2: 0 4px 12px rgba(0,0,0,.10), 0 2px 6px rgba(0,0,0,.08);
+  --shadow-3: 0 10px 24px rgba(0,0,0,.16), 0 6px 12px rgba(0,0,0,.10);
+}
+
+/* 5) CONTENT WIDTH (used on long-form pages) */
+:root {
+  --content-max: 70ch; /* readable line length */
+}
+
+/* 6) TYPOGRAPHY */
+:root {
+  /* Font stacks */
+  --font-sans: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+               "Helvetica Neue", Arial, sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+               "Liberation Mono", "Courier New", monospace;
+
+  /* Type scale (modular-ish, ratio ~1.25) */
+  --fs-body: 1rem;          /* 16px */
+  --fs-small: 0.875rem;     /* 14px */
+  --fs-code: 0.9rem;        /* slightly smaller */
+  --fs-h3: 1.25rem;         /* 20px */
+  --fs-h2: 1.563rem;        /* ~25px */
+  --fs-h1: 2.441rem;        /* ~39px */
+
+  /* Responsive clamp for really big titles (hero headings, optional) */
+  --fs-display: clamp(2.5rem, 4vw, 3.5rem);
+
+  /* Line heights */
+  --lh-body: 1.6;
+  --lh-heading: 1.25;
+  --lh-tight: 1.2;
+
+  /* Content max width (we already had this, keep or adjust) */
+  --content-max: 72ch;  /* sweet spot between 70–85 characters */
+}
+
+/* Automatic dark theme */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-bg: #0d0f14;
+    --color-surface: #151922;
+    --color-border: #242a36;
+    --color-text: #e9ecf1;
+    --color-muted: #a8b0bf;
+
+    --color-accent: #6aa8ff;            /* lighten accent in dark */
+    --color-accent-contrast: #0b1020;
+    --color-link: var(--color-accent);
+
+    --color-code-bg: #151a22;
+    --color-selection-bg: #224a88;
+  }
+}
+
+
+/* Base surfaces */
+html, body {
+  background: var(--color-bg);
+  color: var(--color-text);
+}
+
+/* Base text */
+body {
+  font-family: var(--font-sans);
+  font-size: var(--fs-body);
+  line-height: var(--lh-body);
+  color: var(--color-text);
+  background: var(--color-bg);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+/* Links */
+a {
+  color: var(--color-link);
+  text-decoration-color: color-mix(in oklab, var(--color-link), transparent 70%);
+}
+a:hover, a:focus {
+  text-decoration-color: var(--color-link);
+}
+
+/* Main content width & rhythm */
+article, .content, .container, .page, .post {
+  max-width: var(--content-max);
+  margin-inline: auto;
+}
+
+/* Cards / panels commonly used by Flex */
+.card, .sidebar, .post, .page, .pagination {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-1);
+}
+
+/* Code blocks */
+pre, code, kbd, samp {
+  background: var(--color-code-bg);
+  border-radius: var(--radius-sm);
+}
+pre {
+  padding: var(--space-4);
+  overflow: auto;
+}
+
+/* Images */
+img {
+  border-radius: var(--radius-sm);
+}
+
+/* Selection */
+::selection {
+  background: var(--color-selection-bg);
+}
+
+/* Spacing helpers (tiny utility set you can reuse in templates) */
+.mt-4 { margin-top: var(--space-4); }
+.mb-4 { margin-bottom: var(--space-4); }
+.p-4  { padding: var(--space-4); }
+.rounded { border-radius: var(--radius-md); }
+.shadow-1 { box-shadow: var(--shadow-1); }
+
+/* Headings hierarchy */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-sans);
+  font-weight: 600;
+  color: var(--color-text);
+  line-height: var(--lh-heading);
+  margin-top: var(--space-6);
+  margin-bottom: var(--space-3);
+}
+
+h1 {
+  font-size: var(--fs-h1);
+}
+
+h2 {
+  font-size: var(--fs-h2);
+}
+
+h3 {
+  font-size: var(--fs-h3);
+}
+
+h4, h5, h6 {
+  font-size: var(--fs-body);
+  text-transform: none;
+  letter-spacing: 0.02em;
+}
+
+/* Flex-specific titles */
+.post-title, .page-title, .article-title {
+  font-size: var(--fs-h1);
+  line-height: var(--lh-heading);
+  margin-bottom: var(--space-4);
+}
+
+.post-title a, .article-title a {
+  color: inherit;
+  text-decoration: none;
+}
+.post-title a:hover, .article-title a:hover {
+  text-decoration: underline;
+}
+
+/* Main reading column: limit line length */
+article,
+.post,
+.page,
+.content,
+.main,
+#content {
+  max-width: var(--content-max);
+  margin-inline: auto;
+}
+
+/* Paragraphs & lists */
+p {
+  margin-top: 0;
+  margin-bottom: var(--space-4);
+}
+
+ul, ol {
+  padding-left: var(--space-6);
+  margin-top: 0;
+  margin-bottom: var(--space-4);
+}
+
+li + li {
+  margin-top: var(--space-1);
+}
+
+/* Inline code */
+code, kbd, samp {
+  font-family: var(--font-mono);
+  font-size: var(--fs-code);
+  line-height: var(--lh-tight);
+  background: var(--color-code-bg);
+  padding: 0.1em 0.35em;
+  border-radius: var(--radius-xs);
+}
+
+/* Code blocks */
+pre {
+  font-family: var(--font-mono);
+  font-size: var(--fs-code);
+  line-height: var(--lh-tight);
+  background: var(--color-code-bg);
+  padding: var(--space-4);
+  border-radius: var(--radius-sm);
+  overflow: auto;
+  margin-top: var(--space-4);
+  margin-bottom: var(--space-4);
+}
+
+/* Avoid double padding when theme nests code inside pre */
+pre code {
+  padding: 0;
+  background: transparent;
+}
+
+small,
+.meta,
+.post-meta,
+.footer,
+.footer a {
+  font-size: var(--fs-small);
+  color: var(--color-muted);
+}
