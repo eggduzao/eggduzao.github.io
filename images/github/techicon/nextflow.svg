@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="200"
+   height="200"
+   viewBox="0 0 200 200"
+   fill="none"
+   version="1.1"
+   id="svg12"
+   sodipodi:docname="nextflow.svg"
+   inkscape:version="1.3 (0e150ed, 2023-07-21)"
+   inkscape:export-filename="nextflow.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview12"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="1.5773262"
+     inkscape:cx="12.996678"
+     inkscape:cy="81.783971"
+     inkscape:window-width="1312"
+     inkscape:window-height="449"
+     inkscape:window-x="884"
+     inkscape:window-y="30"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg12" />
+  <defs
+     id="defs12">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath8">
+      <g
+         id="g9">
+        <rect
+           width="256"
+           height="256"
+           fill="#ffffff"
+           id="rect9"
+           x="0"
+           y="0" />
+      </g>
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath13">
+      <g
+         id="g14">
+        <rect
+           width="98"
+           height="16"
+           fill="#ffffff"
+           id="rect13"
+           x="0"
+           y="0" />
+      </g>
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath14">
+      <g
+         id="g15">
+        <rect
+           width="98"
+           height="16"
+           fill="#ffffff"
+           id="rect14"
+           x="0"
+           y="0" />
+      </g>
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath15">
+      <g
+         id="g16">
+        <rect
+           width="98"
+           height="16"
+           fill="#ffffff"
+           id="rect15"
+           x="0"
+           y="0" />
+      </g>
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath16">
+      <g
+         id="g17">
+        <rect
+           width="98"
+           height="16"
+           fill="#ffffff"
+           id="rect16"
+           x="0"
+           y="0" />
+      </g>
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath17">
+      <g
+         id="g18">
+        <rect
+           width="98"
+           height="16"
+           fill="#ffffff"
+           id="rect17"
+           x="0"
+           y="0" />
+      </g>
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath18">
+      <g
+         id="g19">
+        <rect
+           width="98"
+           height="16"
+           fill="#ffffff"
+           id="rect18"
+           x="0"
+           y="0" />
+      </g>
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath19">
+      <g
+         id="g20">
+        <rect
+           width="98"
+           height="16"
+           fill="#ffffff"
+           id="rect19"
+           x="0"
+           y="0" />
+      </g>
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath20">
+      <g
+         id="g21">
+        <rect
+           width="98"
+           height="16"
+           fill="#ffffff"
+           id="rect20"
+           x="0"
+           y="0" />
+      </g>
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath21">
+      <g
+         id="g22">
+        <rect
+           width="98"
+           height="16"
+           fill="#ffffff"
+           id="rect21"
+           x="0"
+           y="0" />
+      </g>
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath22">
+      <g
+         id="g23">
+        <rect
+           width="98"
+           height="16"
+           fill="#ffffff"
+           id="rect22"
+           x="0"
+           y="0" />
+      </g>
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath23">
+      <g
+         id="g24">
+        <rect
+           width="98"
+           height="16"
+           fill="#ffffff"
+           id="rect23"
+           x="0"
+           y="0" />
+      </g>
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath24">
+      <g
+         id="g25">
+        <rect
+           width="98"
+           height="16"
+           fill="#ffffff"
+           id="rect24"
+           x="0"
+           y="0" />
+      </g>
+    </clipPath>
+  </defs>
+  <g
+     id="g27"
+     transform="translate(47.674422,250.68383)"
+     style="stroke-width:1">
+    <path
+       d="M 196,0 H 60 C 26.8629,0 0,26.8629 0,60 v 136 c 0,33.137 26.8629,60 60,60 h 136 c 33.137,0 60,-26.863 60,-60 V 60 C 256,26.8629 229.137,0 196,0 Z"
+       fill="#242938"
+       id="path1-7"
+       clip-path="url(#clipPath8)"
+       transform="matrix(0.78125,0,0,0.78125,-47.674422,-250.68383)"
+       style="stroke-width:1.28" />
+    <g
+       id="g26"
+       transform="matrix(9.4795396,0,0,9.4795396,-23.510739,-226.52015)"
+       style="stroke-width:0.10549">
+      <path
+         d="M 0,2.94912 C 2.5248,3.1168 4.54784,5.14496 4.70656,7.67232 H 7.65504 C 7.4912,3.51488 4.15552,0.1728 0,0 Z"
+         fill="#0dc09d"
+         id="path1"
+         clip-path="url(#clipPath24)"
+         style="stroke-width:0.10549" />
+      <path
+         d="M 4.7232,8.34497 C 4.55552,10.8698 2.52736,12.8928 0,13.0515 V 16 C 4.15744,15.8362 7.49952,12.5005 7.67232,8.34497 Z"
+         fill="#0dc09d"
+         id="path2"
+         clip-path="url(#clipPath23)"
+         style="stroke-width:0.10549" />
+      <path
+         d="M 11.2768,7.65504 C 11.4445,5.13024 13.4726,3.1072 16,2.94848 V 0 C 11.8425,0.16384 8.50047,3.49952 8.32767,7.65504 Z"
+         fill="#0dc09d"
+         id="path3"
+         clip-path="url(#clipPath22)"
+         style="stroke-width:0.10549" />
+      <path
+         d="M 16,13.0509 C 13.4752,12.8832 11.4522,10.855 11.2935,8.32767 H 8.34497 C 8.50881,12.4851 11.8445,15.8272 16,16 Z"
+         fill="#0dc09d"
+         id="path4"
+         clip-path="url(#clipPath21)"
+         style="stroke-width:0.10549" />
+    </g>
+  </g>
+</svg>
