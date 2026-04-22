@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 200 200"
+   version="1.1"
+   id="svg6"
+   sodipodi:docname="jira.svg"
+   inkscape:version="1.3 (0e150ed, 2023-07-21)"
+   width="200"
+   height="200"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview6"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="1.84375"
+     inkscape:cx="4.6101695"
+     inkscape:cy="166.77966"
+     inkscape:window-width="2304"
+     inkscape:window-height="1268"
+     inkscape:window-x="884"
+     inkscape:window-y="28"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg6" />
+  <defs
+     id="defs4">
+    <linearGradient
+       id="jira-original-a"
+       gradientUnits="userSpaceOnUse"
+       x1="22.034"
+       y1="9.7729998"
+       x2="17.118"
+       y2="14.842"
+       gradientTransform="scale(4)">
+      <stop
+         offset=".176"
+         stop-color="#0052cc"
+         id="stop1" />
+      <stop
+         offset="1"
+         stop-color="#2684ff"
+         id="stop2" />
+    </linearGradient>
+    <linearGradient
+       id="jira-original-b"
+       gradientUnits="userSpaceOnUse"
+       x1="16.641001"
+       y1="15.564"
+       x2="10.957"
+       y2="21.094"
+       gradientTransform="scale(4)">
+      <stop
+         offset=".176"
+         stop-color="#0052cc"
+         id="stop3" />
+      <stop
+         offset="1"
+         stop-color="#2684ff"
+         id="stop4" />
+    </linearGradient>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath8">
+      <g
+         id="g9">
+        <rect
+           width="256"
+           height="256"
+           fill="#ffffff"
+           id="rect9"
+           x="0"
+           y="0" />
+      </g>
+    </clipPath>
+  </defs>
+  <g
+     id="g7"
+     transform="translate(43,230)">
+    <path
+       d="M 196,0 H 60 C 26.8629,0 0,26.8629 0,60 v 136 c 0,33.137 26.8629,60 60,60 h 136 c 33.137,0 60,-26.863 60,-60 V 60 C 256,26.8629 229.137,0 196,0 Z"
+       fill="#242938"
+       id="path1"
+       clip-path="url(#clipPath8)"
+       transform="matrix(0.78125001,0,0,0.78125001,-43,-230)"
+       style="stroke-width:1.28" />
+    <g
+       id="g6"
+       transform="matrix(1.8135593,0,0,1.8135593,-59.067794,-246.06779)"
+       style="stroke-width:0.551402">
+      <path
+         d="M 108.023,16 H 61.805 c 0,11.52 9.324,20.848 20.847,20.848 h 8.5 v 8.226 c 0,11.52 9.328,20.848 20.848,20.848 V 19.977 A 3.98,3.98 0 0 0 108.023,16 Z m 0,0"
+         fill="#2684ff"
+         id="path4"
+         style="stroke-width:0.551402" />
+      <path
+         d="M 85.121,39.04 H 38.902 c 0,11.519 9.325,20.847 20.844,20.847 h 8.504 v 8.226 c 0,11.52 9.328,20.848 20.848,20.848 V 43.016 a 3.983,3.983 0 0 0 -3.977,-3.977 z m 0,0"
+         fill="url(#jira-original-a)"
+         id="path5"
+         style="fill:url(#jira-original-a);stroke-width:0.551402" />
+      <path
+         d="M 62.219,62.078 H 16 c 0,11.524 9.324,20.848 20.848,20.848 h 8.5 v 8.23 c 0,11.52 9.328,20.844 20.847,20.844 V 66.059 a 3.984,3.984 0 0 0 -3.976,-3.98 z m 0,0"
+         fill="url(#jira-original-b)"
+         id="path6"
+         style="fill:url(#jira-original-b);stroke-width:0.551402" />
+    </g>
+  </g>
+</svg>
