@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Editable < chevron with a rounded inner space via masking.
+     Knobs:
+       - GAP: thickness of inner gap (stroke-width)
+       - TOP_Y / BOT_Y: vertical span (height) of the chevron
+       - FILL: color of the chevron
+-->
+
+<svg
+   viewBox="0 0 880 36"
+   version="1.1"
+   id="svg2"
+   sodipodi:docname="section-education.svg"
+   width="880"
+   height="36"
+   inkscape:version="1.3 (0e150ed, 2023-07-21)"
+   inkscape:export-filename="logo.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><sodipodi:namedview
+   id="namedview2"
+   pagecolor="#ffffff"
+   bordercolor="#000000"
+   borderopacity="0.25"
+   inkscape:showpageshadow="2"
+   inkscape:pageopacity="0.0"
+   inkscape:pagecheckerboard="0"
+   inkscape:deskcolor="#d1d1d1"
+   inkscape:zoom="0.95705314"
+   inkscape:cx="501.01711"
+   inkscape:cy="-129.04195"
+   inkscape:window-width="2304"
+   inkscape:window-height="1268"
+   inkscape:window-x="884"
+   inkscape:window-y="28"
+   inkscape:window-maximized="0"
+   inkscape:current-layer="svg2" />
+<!-- ====== PARAMETERS (edit these) ====== -->
+<!-- Inner gap thickness (in px). Try 140..240 -->
+<g
+   id="params"
+   data-GAP="180"
+   data-TOP_Y="160"
+   data-BOT_Y="864"
+   data-FILL="#000000"
+   transform="matrix(1.78,0,0,1.78,-480.01487,-546.58081)"
+   style="stroke-width:0.561798" />
+<!-- Read the values via JS if you want, but for simplicity just edit the numbers below too. -->
+<!-- ====== CONFIG (manually set from params above) ====== -->
+<!-- GAP: controls how wide the inner hollow is -->
+<!-- TOP_Y / BOT_Y: change these to make the shape taller/shorter -->
+<!-- FILL: color of the outer chevron -->
+<defs
+   id="defs1">
+  <style
+     id="style1">&#10;      /* Not required; kept for readability */&#10;    </style>
+  <!-- Mask that carves out the rounded inner gap using a stroked polyline -->
+  <mask
+     id="innerCut"><!-- Start fully visible -->
+<rect
+   width="1024"
+   height="1024"
+   fill="#ffffff"
+   id="rect1"
+   x="0"
+   y="0" />
+<!-- Draw the centerline of the chevron in BLACK; black = "cut out" -->
+<!-- Points: left-center -> top-right -> bottom-right -->
+<!-- Adjust TOP_Y and BOT_Y, and stroke-width for GAP -->
+<polyline
+   id="centerline"
+   points="256,512  704,160  704,864"
+   fill="none"
+   stroke="#000000"
+   stroke-width="180" />
+<!-- GAP -->
+&#10;&#10;&#10;&#10;&#10;&#10;&#10;        stroke-linecap=&quot;round&quot;&#10;        stroke-linejoin=&quot;round&quot;/&gt;&#10;    </mask>
+  <linearGradient
+     inkscape:collect="always"
+     xlink:href="#linearGradient1"
+     id="linearGradient20"
+     gradientUnits="userSpaceOnUse"
+     x1="2.7172848e-07"
+     y1="17.999996"
+     x2="880"
+     y2="17.999996"
+     gradientTransform="translate(-14,839)" />
+  <linearGradient
+     id="linearGradient1"
+     inkscape:collect="always">
+    <stop
+       style="stop-color:#10344a;stop-opacity:1;"
+       offset="0"
+       id="stop2" />
+    <stop
+       style="stop-color:#0b2537;stop-opacity:1;"
+       offset="1"
+       id="stop1" />
+  </linearGradient>
+</defs>
+<!-- OPTIONAL background to see the hole; delete if not needed -->
+<!-- Outer chevron wedge (sharp outside) -->
+<!-- Edit TOP_Y and BOT_Y here to change height -->
+<!-- FILL -->
+&#10;&#10;&#10;&#10;&#10;&#10;&#10;        mask=&quot;url(#innerCut)&quot;/&gt;&#10;<g
+   id="g37"
+   transform="translate(14,-839)">
+  <rect
+     style="fill:url(#linearGradient20);fill-opacity:1;stroke:none;stroke-width:7.99999;stroke-linecap:square"
+     id="rect2-6-1-53"
+     width="880"
+     height="36"
+     x="-14"
+     y="839"
+     ry="5.2903595"
+     rx="5.2903595" />
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:22px;line-height:0;font-family:Consolas;-inkscape-font-specification:'Consolas Bold';text-align:center;letter-spacing:0px;text-anchor:middle;fill:#70b4bf;fill-opacity:1;stroke-width:1;stroke-linecap:square;stroke-dasharray:none"
+     x="577.06934"
+     y="863.54199"
+     id="text1-9-73"><tspan
+       sodipodi:role="line"
+       id="tspan1-4-02"
+       x="577.06934"
+       y="863.54199"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:22px;font-family:Consolas;-inkscape-font-specification:'Consolas Bold';letter-spacing:0px;fill:#70b4bf;fill-opacity:1;stroke:none;stroke-width:1;stroke-dasharray:none">curriculum |&gt; summarize(across(everything()))</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-weight:bold;font-size:26px;line-height:0;font-family:'JIMFNJ+AdvP49811';-inkscape-font-specification:'JIMFNJ+AdvP49811 Bold';text-align:center;letter-spacing:0px;text-anchor:middle;fill:#e9eef2;fill-opacity:1;stroke-width:1;stroke-linecap:square;stroke-dasharray:none"
+     x="88.068848"
+     y="866.46436"
+     id="text1-9-0-5"><tspan
+       sodipodi:role="line"
+       id="tspan1-4-6-77"
+       x="88.068848"
+       y="866.46436"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:26px;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans Bold';letter-spacing:0px;fill:#e9eef2;fill-opacity:1;stroke:none;stroke-width:1;stroke-dasharray:none">EDUCATION</tspan></text>
+</g>
+</svg>
